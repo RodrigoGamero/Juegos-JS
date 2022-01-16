@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego</title>
+</head>
+
+<body>
+    <div class="inicio">
+        <div class="imagen"></div>
+        <div class="botones">
+            <button class="Iniciar">Iniciar partida</button>
+            <button class="Historial">Consultar historial</button>
+        </div>
+    </div>
+
+    <div class="modo">
+        <div class="imagen"></div>
+        <h2>Seleccione modo de juego:</h2>
+        <div class="botones">
+            <button class="1jugador">1 Jugador</button>
+            <button class="2jugador">2 Jugadores</button>
+        </div>
+    </div>
+
+    <div class="nombres">
+        <div class="imagen"></div>
+        <div class="botones">
+            <label for="">Jugador 1: </label>
+            <input type="text" name="jugador1" id="j1">
+            <select id="eleccion1" name="select">
+                <option value="Triangulo">Triángulo</option>
+                <option value="Cuadrado" selected>Cuadrado</option>
+                <option value="Circulo">Círculo</option>
+                <option value="Equis">Equis</option>
+              </select>
+            <label for="">Jugador 2: </label>
+            <input type="text" name="jugador2" id="j2">
+            <select id="eleccion2" name="select">
+                <option value="Triangulo" selected>Triángulo</option>
+                <option value="Cuadrado">Cuadrado</option>
+                <option value="Circulo">Círculo</option>
+                <option value="Equis">Equis</option>
+              </select>
+            <button class="empezar">Empezar</button>
+        </div>
+    </div>
+
+    <div class="nombre">
+        <div class="imagen"></div>
+        <div class="botones">
+            <label for="">Jugador 1: </label>
+            <input type="text" name="jugador1" id="j1m1">
+
+            <select id="eleccion3" name="select">
+                <option value="Triangulo">Triángulo</option>
+                <option value="Cuadrado">Cuadrado</option>
+                <option value="Circulo" selected>Círculo</option>
+                <option value="Equis">Equis</option>
+              </select>
+              <select id="eleccion4" name="select">
+                <option value="Triangulo">Triángulo</option>
+                <option value="Cuadrado" >Cuadrado</option>
+                <option value="Circulo">Círculo</option>
+                <option value="Equis" selected>Equis</option>
+              </select>
+              <button class="empezar1j">Empezar</button>
+        </div>
+
+    </div>
+
+
+    <div class="juego">
+        <div class="marcador">
+            <label for="" class="nombrej1"></label>
+            <label for="" class="puntos"></label>
+            <label for="" class="nombrej2"></label>
+            <p class="turno"></p>
+        </div>
+        <div class="buton"></div>
+        <div class="buton"></div>
+        <div class="buton"></div>
+        <div class="buton"></div>
+        <div class="buton"></div>
+        <div class="buton"></div>
+        <div class="buton"></div>
+        <div class="buton"></div>
+        <div class="buton"></div>
+        <button id="revancha2j">Revancha</button>
+        <button id="volver">Volver</button>
+
+
+    </div>
+
+    <div class="juego1j">
+        <div class="marcador1">
+            <label for="" class="nombrej11"></label>
+            <label for="" class="puntos1j"></label>
+            <label for="" class="nombrej2">Máquina</label>
+            <p class="turno1j"></p>
+        </div>
+        <div class="buton1"></div>
+        <div class="buton1"></div>
+        <div class="buton1"></div>
+        <div class="buton1"></div>
+        <div class="buton1"></div>
+        <div class="buton1"></div>
+        <div class="buton1"></div>
+        <div class="buton1"></div>
+        <div class="buton1"></div>
+        <button id="revancha1j">Revancha</button>
+        <button id="volver2">Volver</button>
+    </div>
+
+
+    <div class="ver">
+        <h1>Historial de partidas:</h1>
+        
+        <div class="texto"></div>
+        <button id="volver3">Volver</button>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

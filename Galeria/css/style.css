@@ -1,0 +1,64 @@
+body{
+
+}
+
+img{
+
+    width: 300px;
+    height: 200px;
+    size-adjust: 1px;
+}
+
+#opciones{
+    margin: 0 auto;
+}
+
+.opciones{
+    display: flex;
+    justify-content: center;
+}
+
+.imagenAmpliada{
+    background: url("../img/harry-potter-logo.png");
+    margin: 0 auto;
+    width: 1000px;
+    height: 600px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    -webkit-transition: background 300ms ease-in 200ms;
+    -moz-transition: background 300ms ease-in 200ms;
+    -o-transition: background 300ms ease-in 200ms;
+    transition: background 300ms ease-in 200ms;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+
+}
+
+.galeria{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.galeria img{
+    padding: 20px;
+    border-radius: 40px;
+    
+
+}
+
+select{
+    margin: auto;
+    width: 300px;
+    height: 35px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.contenedor{
+    width: 80%;
+    height: 700px;
+    margin: 0 auto;
+
+}
